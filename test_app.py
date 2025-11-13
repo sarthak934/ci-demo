@@ -7,7 +7,7 @@ import pytest
 from app import add, multiply
 
 def test_addition_positive_numbers():
-    assert add(10, 5) == 150
+    assert add(10, 5) == 15
 
 def test_addition_negative_numbers():
     assert add(-2, -3) == -5
